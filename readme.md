@@ -1,1 +1,8 @@
 
+## Solution
+
+## Methodology
+
+## Architecture
+
+## Scalability
