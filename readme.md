@@ -11,3 +11,5 @@
 ![dfd drawio](https://user-images.githubusercontent.com/20948883/191318328-8c0d452d-5271-4f6e-85cf-6a694c9e0520.svg)
 
 ## Scalability
+  1) Kubernetes pods running on demand to process the images and as the load increases so does the pods.
+  2) Multiple services running on the images to process different data points from the image and then unify all the output to get an actual result.
