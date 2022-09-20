@@ -12,4 +12,7 @@
 
 ## Scalability
   1) Kubernetes pods running on demand to process the images and as the load increases so does the pods.
-  2) Multiple services running on the images to process different data points from the image and then unify all the output to get an actual result.
+  2) Each branch can have seperate deployment yaml which can be scaled horizontly and can be scaled dynamically.
+  3) Multiple services running on the images to process different data points from the image and then unify all the output to get an actual result.
+  4) Common dashboard to monitor all the status.
+  5) Models to be trained and pushed to s3. So that it can be pushed to any region on basis of domain and context of the client.
